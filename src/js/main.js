@@ -1,3 +1,9 @@
 'use strict';
+//Constantes
+const searchBtn = document.querySelector('.js-serchButton');
 
-console.log('>> Ready :)');
+//function
+//function handleClick(event)
+//Eventos
+
+

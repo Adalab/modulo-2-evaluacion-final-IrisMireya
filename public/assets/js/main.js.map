@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"main.js","sourcesContent":["'use strict';\r\n//Constantes\r\nconst searchBtn = document.querySelector('.js-serchButton');\r\n\r\n//function\r\n//function handleClick(event)\r\n//Eventos\r\n\r\n\r\n"]}
