@@ -44,9 +44,7 @@ searchBtn.addEventListener("click", (event) => {
           });
 
           favouritesDrinks.push(drinkInformation);
-          window.localStorage.setItem(
-            "drinks",
-            JSON.stringify(favouritesDrinks)
+          localStorage.setItem("drinks", JSON.stringify(favouritesDrinks)
           );
 
           const newFav = `<li class ="fav js-fav" id=${drinkInformation.strDrink}><div><div><button class="delete__button js-delete">
@@ -75,8 +73,9 @@ searchBtn.addEventListener("click", (event) => {
 btnReset.addEventListener("click", (del) => {
   del.preventDefault();
   if (favouritesDrinks.length > 0) {
-    window.localStorage.clear();
     favList.innerHTML = "";
+    favouritesDrinks =[];
+    localStorage.removeItem("drinks");
   }
 });
 //# sourceMappingURL=main.js.map
