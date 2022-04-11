@@ -50,7 +50,7 @@ searchBtn.addEventListener("click", (event) => {
           );
 
           const newFav = `<li class ="fav js-fav" id=${drinkInformation.strDrink}><div><div><button class="delete__button js-delete">
-          <img src="../assets/images/cancel.png">
+          <img src="./assets/images/cancel.png">
         </button>  ${drinkInformation.strDrink}<br><img src="${drinkInformation.strDrinkThumb}" width="80px"/></div></li>`;
           favList.innerHTML += newFav;
 
